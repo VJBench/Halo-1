@@ -1,5 +1,5 @@
 package run.halo.app.repository;
-
+import org.junit.Ignore;
 import run.halo.app.model.entity.Sheet;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -24,6 +24,7 @@ public class SheetRepositoryTest {
     @Autowired
     private SheetRepository sheetRepository;
 
+    @Ignore
     @Test
     public void listAllTest() {
         List<Sheet> allSheets = sheetRepository.findAll();

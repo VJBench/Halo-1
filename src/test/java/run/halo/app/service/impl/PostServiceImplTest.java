@@ -45,6 +45,7 @@ public class PostServiceImplTest {
         System.out.println(exportMarkdown);
     }
 
+    @Ignore
     @Test
     @Transactional
     public void markdownImportTest() {
