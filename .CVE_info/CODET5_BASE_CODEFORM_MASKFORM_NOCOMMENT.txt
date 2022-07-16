@@ -1,0 +1,8 @@
+public static void checkDirectoryTraversal(@NonNull Path parentPath, @NonNull Path pathToCheck) {
+    Assert.notNull(parentPath, "Parent path must not be null");
+    Assert.notNull(pathToCheck, "Path to check must not be null");
+    <extra_id_0>
+        return;
+    }
+    throw new ForbiddenException("你没有权限访问 " + pathToCheck).setErrorData(pathToCheck);
+}
