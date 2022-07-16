@@ -1,6 +1,7 @@
 {
     "buggy_file_path": "src/main/java/run/halo/app/utils/FileUtils.java",
-    "buggy_method":[[289,304]],
+    "comment_buggy_method":[[289,304]],
+    "buggy_method":[[295,304]],
     "buggy_line":[[299]],
     "bug_type": "replace",
     "compile_cmd": "./gradlew build -x test",
