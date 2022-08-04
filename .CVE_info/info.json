@@ -4,8 +4,8 @@
     "buggy_method":[[289,304]],
     "buggy_line":[[299]],
     "bug_type": "replace",
-    "compile_cmd": "./gradlew build -x test",
-    "test_cmd" : "./gradlew test",
+    "compile_cmd": "./gradlew clean build -x test",
+    "test_cmd" : "./gradlew clean test",
     "CVE": "CVE-2020-21522",
     "skip_compile_cmd": true,
     "github_url":"https://github.com/halo-dev/halo"
